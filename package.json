@@ -1,18 +1,31 @@
 {
   "name": "16062021",
   "version": "1.0.0",
-  "description": "",
+  "description": "bootstrap, lodash and nodemon",
+  "keywords": [
+    "bootstrap",
+    "lodash",
+    "nodemon"
+  ],
   "main": "10-fs-sync.js",
   "dependencies": {
     "bootstrap": "^5.0.1",
-    "jquery": "^3.6.0",
+    "i": "^0.3.6",
     "lodash": "^4.17.21",
-    "popper.js": "^1.16.1"
+    "nodemon": "^2.0.7"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngmanhtruong/temp-nodejs.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ngmanhtruong/temp-nodejs/issues"
+  },
+  "homepage": "https://github.com/ngmanhtruong/temp-nodejs#readme"
 }
